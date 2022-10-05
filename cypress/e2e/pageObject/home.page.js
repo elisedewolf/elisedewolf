@@ -4,7 +4,7 @@ export const navigation ={
     linkContact: 'a[href="/contact/"]'
 }
 export const cookies={
-    buttonaccepteren: 'button[class="w-fit inline-flex flex-row items-center px-3 py-1 transition delay-100 border rounded-full group cursor-none solid text-primary border-primary hover:cursor-pointer"]'
+    buttonaccepteren: '.cookie-banner button'
 }
 export function searchVragen() {
     cy.get(navigation.buttonSearch)
