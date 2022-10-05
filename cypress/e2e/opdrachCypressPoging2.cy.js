@@ -42,8 +42,4 @@ context('test phanes', () => {
     });
 });
 
-function testgit(){
-    console.log(test)
-}
-
 
